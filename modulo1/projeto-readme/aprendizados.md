@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Nessa primeira semanda de introdução ao estudo de programação na **Labenu** eu pude aprender muitas coisas, como o que é **terminal**, como funciona, para que serve e diversos comandos para poder utiliza-lo. Tambem aprendi a trabalhar com o **git**, oq deu uma baita dosr de cabeça kkk. E agora estou começando a trabalhar com o **vscode**.
