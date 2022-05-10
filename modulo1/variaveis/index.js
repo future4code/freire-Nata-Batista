@@ -70,6 +70,3 @@ let n22 = Number(n2)
 
 let somaAdicao = Number(n11 + n22)
 let somaMulti = Number(n11 * n22)
-
-console.log ("O primeio numero somado com o segundo numero dá", somaAdicao)
-console.log ("O primeio numero multiplicado com o segundo numero dá", somaMulti)
