@@ -47,3 +47,7 @@ footer p {
     display: flex;
     justify-content: center;
 }
+
+textarea{
+    vertical-align:middle ;
+}
