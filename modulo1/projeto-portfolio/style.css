@@ -1,6 +1,7 @@
 * {
     margin-left: 15px;
     margin-right: 15px;
+    padding: 0;
 }
 
 header {
@@ -43,11 +44,19 @@ footer p {
     text-align: center;
 }
 
-#oi {
+#final {
     display: flex;
     justify-content: center;
 }
 
-textarea{
-    vertical-align:middle ;
+textarea {
+    vertical-align: middle;
+    display:flex;
+}
+
+
+footer {
+    background-image: url(./img/matthew-mcbrayer-qD9xzm7yK9U-unsplash.jpg);
+    border-top: 2px solid black;
+    
 }
