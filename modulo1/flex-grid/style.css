@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: mediumvioletred;
+    height: 50px;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+    padding-left: 40px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.botao {
+    justify-content: right;
+    padding-left: 680px;
+}
+
+.botao>button {
+    width: 50px;
+    height: 25px;
+}
+
+section {
+    display: flex;
+}
+
+.menubar {
+    background-color: #f2d0e0;
+    border: solid red;
+    width: 300px;
+    height: calc(100vh - 100px);
+}
+
+.menubar a {
+    display: flex;
+    padding-left: 3vh;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.bolo {
+    border: solid black;
+    width: calc(100vw - 300px);
+    height: calc(100vh - 100px);
+
+}
+
+
+footer {
+    border: solid blue;
+    height: 50px;
+    background-color: mediumvioletred;
+    text-align: center;
+}
+
+.menubar a {
+    display: flex;
+
+}
