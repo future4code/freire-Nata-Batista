@@ -21,8 +21,7 @@ header {
 
 @font-face {
     font-family: The Neue;
-    src: url(./TheNeue-Black.otf) format("opentype")
-    
+    src: url(./the-neue-black/TheNeue-Black.otf) format("opentype")
 }
 
 .logoTexto h1 {
