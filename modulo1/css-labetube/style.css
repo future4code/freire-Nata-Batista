@@ -13,7 +13,9 @@ header {
     height: 80px;
     width: 100%;
     margin-top: 35px;
+}
 
+.logo{
 }
 
 @font-face {
@@ -24,7 +26,7 @@ header {
 .logoTexto h2 {
     display: flex;
     color: rgb(128, 128, 128);
-    font-size: 200%;
+    font-size: 2vw;
     font-family: The Neue;
 }
 
@@ -33,48 +35,44 @@ header {
 }
 
 .areaPesquisa {
-    height: 35px;
-    width: 100px;
-    padding-left: 30px;
+    height: 3.5vh;
+    width: 7vw;
+    text-align: center;
 }
 
 main {
-    border: solid gray;
-    height: calc(100vh - 165px);
+    border: solid black;
+    padding-bottom: 3%;
 }
 
-/*.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50% 50%;
-    grid-gap: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-top: 1.5%;
-}*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    row-gap: 50px;
+    column-gap: 3vw;
 
-
-
-.video {
-    background-color: rgb(234, 205, 171);
-    padding: 5%;
-    font-size: 130%;
+    padding-top: 2%;
     text-align: center;
 }
 
-.container img {
-    width: 100%;
+section img {
+    width: 350px;
+    border: solid gray;
 }
 
 footer {
-    bottom: 0;
     position: absolute;
     background-color: black;
     color: #FFF;
+    
     width: 100%;
     height: 50px;
+    
     text-align: center;
     line-height: 50px;
+    
 }
 
 .videoMaster {
