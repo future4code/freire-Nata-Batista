@@ -16,19 +16,22 @@ header {
 }
 
 .logo {
-    max-width: 30%;
+    height: 15vw;
+
 }
 
-@font-face {
+@font-face { /*FONTE*/
     font-family: The Neue;
-    src: url(./the-neue-black/TheNeue-Black.otf) format("opentype")
+    src: url(./font/TheNeue-Black.otf) format("opentype")
+
 }
 
 .logoTexto h1 {
     display: flex;
     font-family: The Neue;
     color: rgb(128, 128, 128);
-    font-size: 3vh;
+    font-size: 3.5vh;
+    
 }
 
 .blocoPesquisa {
