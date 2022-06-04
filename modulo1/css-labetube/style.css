@@ -16,14 +16,13 @@ header {
 }
 
 .logo {
-    height: 15vw;
-
+    margin-top: 20px;
+    
 }
 
 @font-face { /*FONTE*/
     font-family: The Neue;
     src: url(./font/TheNeue-Black.otf) format("opentype")
-
 }
 
 .logoTexto h1 {
@@ -31,7 +30,6 @@ header {
     font-family: The Neue;
     color: rgb(128, 128, 128);
     font-size: 3.5vh;
-    
 }
 
 .blocoPesquisa {
@@ -76,7 +74,6 @@ footer {
 
     text-align: center;
     line-height: 50px;
-
 }
 
 .videoMaster {
