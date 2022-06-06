@@ -12,12 +12,12 @@ header {
     background-color: black;
     height: 80px;
     width: 100%;
-    margin-top: 40px; /*MARGEM EM CIMA*/
+    margin-top: 45px; /*MARGEM EM CIMA*/
 }
 
 .logo {
     margin-top: 20px;
-    
+    height: 15vw;
 }
 
 @font-face { /*FONTE*/
@@ -55,7 +55,7 @@ main {
     row-gap: 50px;
     column-gap: 3.5vw;
 
-    padding-top: 2.5%; /*MARGEM*/
+    padding-top: 50px; /*MARGEM*/
     text-align: center;
 }
 
@@ -73,7 +73,7 @@ footer {
     height: 50px;
 
     text-align: center;
-    line-height: 50px;
+
 }
 
 .videoMaster {
